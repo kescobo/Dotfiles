@@ -1,7 +1,11 @@
 # Dot files for fedora / hyprland setup
 
 ```
-sudo dnf install -y hyprland stow syncthing
+sudo dnf install -y hyprland stow syncthing fzf
+sudo dnf install -y hyprpaper
+sudo dnf install -y stow
+sudo dnf install -y syncthing
+sudo dnf install -y fzf
 sudo dnf install -y fish
 sudo dnf install -y fuse
 sudo dnf install -y git
