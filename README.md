@@ -11,6 +11,7 @@ sudo dnf install -y fuse
 sudo dnf install -y git
 sudo dnf install -y neovim
 sudo dnf install -y direnv
+sudo dnf install -y vlc
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit
 curl -sS https://starship.rs/install.sh | sh
