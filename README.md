@@ -7,6 +7,8 @@ sudo dnf install -y fuse
 sudo dnf install -y git
 sudo dnf install -y neovim
 sudo dnf install -y direnv
+sudo dnf copr enable atim/lazygit -y
+sudo dnf install lazygit
 curl -sS https://starship.rs/install.sh | sh
 sudo dnf install -y flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
