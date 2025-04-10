@@ -1,1 +1,6 @@
 *.swp
+julia/.julia/*
+!julia/.julia/environments
+!julia/.julia/config
+Manifest.toml
+
