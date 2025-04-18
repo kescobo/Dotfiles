@@ -63,10 +63,14 @@ opt.tabstop = 4 -- Number of spaces tabs count for
 -- opt.virtualedit = "block" -- Allow cursor to move where there is no text in visual block mode
 -- opt.wildmode = "longest:full,full" -- Command-line completion mode
 -- opt.winminwidth = 5 -- Minimum window width
- -- opt.wrap = false -- Disable line wrap
+-- opt.wrap = false -- Disable line wrap
 
 -- other options
 opt.softtabstop = 4
 opt.swapfile = false
 opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.local/share/undodir"
+
+-- try to fix julia indenting
+vim.g.julia_intent_align_brackets = 0
+vim.g.julia_intent_align_funcargs = 0
