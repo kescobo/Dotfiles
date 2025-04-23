@@ -41,3 +41,8 @@ map("n", "<leader><leader>k", splits.swap_buf_up)
 map("n", "<leader><leader>l", splits.swap_buf_right)
 
 map("v", "<leader>cs", ":SmuggleRange<CR>")
+
+-- Escape even without zsa
+map("i", "jk", "<ESC>", {silent = true})
+map("v", "jk", "<ESC>", {silent = true})
+
