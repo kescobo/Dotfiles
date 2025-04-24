@@ -1,15 +1,15 @@
 [settings]
 default-library = Refs
+opentool = okular
+
 
 [Refs]
 dir = /home/kevin/Refs
-opentool = xdg-open
+opentool = okular
 editor = nvim
-use-git = True
 notes-name = notes.typ
 database-backend = papis
 bibtex-unicode = True
 ref-format = {doc[author_list][0][family]}{doc[title]:.15}{doc[year]}
 multiple-authors-format = {au[family]}, {au[given]}
 citations-file-name = citations.yaml
-

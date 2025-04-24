@@ -1,5 +1,6 @@
 *.swp
 julia/.julia/*
+papis/.config/papis/web/*
 !julia/.julia/environments
 !julia/.julia/config
 Manifest.toml
