@@ -1,7 +1,7 @@
 [settings]
 default-library = Refs
 opentool = okular
-
+file-name = "{doc[ref]}.pdf"
 
 [Refs]
 dir = /home/kevin/Refs

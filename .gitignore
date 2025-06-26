@@ -4,4 +4,5 @@ papis/.config/papis/web/*
 !julia/.julia/environments
 !julia/.julia/config
 Manifest.toml
+nvim/.config/nvim/lazy-lock.json
 
