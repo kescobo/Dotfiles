@@ -1,0 +1,78 @@
+/* waybar style.css */
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: #1F1F28;  /* sumiInk3 */
+    color: #DCD7BA;             /* fujiWhite */
+    border-bottom: 2px solid #54546D;  /* sumiInk6 */
+}
+
+/* Workspaces */
+#workspaces button {
+    padding: 0 10px;
+    background-color: transparent;
+    color: #DCD7BA;  /* fujiWhite */
+}
+
+#workspaces button.active {
+    background-color: #957FB8;  /* oniViolet */
+    color: #1F1F28;             /* sumiInk3 */
+}
+
+#workspaces button.urgent {
+    background-color: #E82424;  /* samuraiRed */
+    color: #DCD7BA;             /* fujiWhite */
+}
+
+/* Modules */
+#clock {
+    background-color: #223249;  /* waveBlue1 */
+    color: #7E9CD8;             /* crystalBlue */
+    padding: 0 15px;
+}
+
+#battery {
+    background-color: #2B3328;  /* winterGreen */
+    color: #98BB6C;             /* springGreen */
+    padding: 0 15px;
+}
+
+#battery.charging {
+    color: #E6C384;  /* carpYellow */
+}
+
+#battery.warning {
+    background-color: #49443C;  /* winterYellow */
+    color: #FF9E3B;             /* roninYellow */
+}
+
+#battery.critical {
+    background-color: #43242B;  /* winterRed */
+    color: #E82424;             /* samuraiRed */
+}
+
+#network {
+    background-color: #252535;  /* winterBlue */
+    color: #7FB4CA;             /* springBlue */
+    padding: 0 15px;
+}
+
+#pulseaudio {
+    background-color: #2A2A37;  /* sumiInk4 */
+    color: #D27E99;             /* sakuraPink */
+    padding: 0 15px;
+}
+
+#cpu, #memory {
+    background-color: #363646;  /* sumiInk5 */
+    color: #9CABCA;             /* springViolet2 */
+    padding: 0 15px;
+}
+
+#tray {
+    background-color: #181820;  /* sumiInk1 */
+    padding: 0 10px;
+}
