@@ -17,4 +17,5 @@ if status is-interactive
     alias gb="git branch"
     alias gch="git checkout"
 
+    unifetch
 end
