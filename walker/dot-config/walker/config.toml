@@ -1,0 +1,11 @@
+# ~/.config/walker/config.toml
+
+[ui]
+width = 600
+height = 400
+anchors = "center"
+transparency = 0.95
+
+[search]
+placeholder = "Search..."
+hide_icons = false

@@ -1,0 +1,24 @@
+/* ~/.config/walker/style.css - Dragon variant */
+
+#window {
+    background-color: rgba(22, 22, 29, 0.98);  /* sumiInk0 with transparency */
+    border: 2px solid #658594;                 /* dragonBlue */
+    border-radius: 10px;
+}
+
+#input {
+    background-color: #181820;  /* sumiInk1 */
+    color: #C8C093;             /* oldWhite */
+    border: 1px solid #363646;  /* sumiInk5 */
+    border-radius: 6px;
+    padding: 12px;
+}
+
+#item:selected {
+    background-color: #658594;  /* dragonBlue */
+    color: #DCD7BA;             /* fujiWhite */
+}
+
+#item:hover {
+    background-color: #2A2A37;  /* sumiInk4 */
+}
