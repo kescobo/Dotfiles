@@ -2,7 +2,32 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "battery", "clock"],
+  "modules-right": [
+    "idle_inhibitor",
+    "network",
+    "pulseaudio",
+    "battery",
+    "bluetooth",
+    "clock",
+  ],
+  "hyprland/workspaces": {
+    "all-outputs": true,
+    "format": "{id}",
+    "on-click": "activate"
+  },
+  "hyprland/window": {
+    "max-width": 50,
+    "separate-outputs": true
+  },
+  "bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"format": " {status}",
+	"format-disabled": "", // an empty format will hide the module
+	"format-connected": " {num_connections} connected",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+  },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
@@ -36,5 +61,12 @@
           "default": ["", "", " "]
       },
       "on-click": "pavucontrol"
-  }
+  },
+  "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
 }

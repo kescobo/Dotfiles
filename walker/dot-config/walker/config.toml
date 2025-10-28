@@ -4,7 +4,7 @@
 width = 600
 height = 400
 anchors = "center"
-transparency = 0.95
+transparency = 0.50
 
 [search]
 placeholder = "Search..."
