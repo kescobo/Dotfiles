@@ -1,9 +1,0 @@
-[deps]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-MiniLoggers = "93f3dd0f-005d-4452-894a-a31841fa4078"
-OhMyREPL = "5fb14364-9ced-5910-84b2-373655c76a03"
-PkgTemplates = "14b8a8f1-9102-5b29-a752-f990bacb7fe1"
-REPLSmuggler = "ad7bff83-59f0-4382-9fe5-c2ac8aa77434"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
-SixelTerm = "65edfddc-f399-4499-8369-a1bd38eee2ea"
-Xranklin = "558449b0-171e-4e1f-900f-d076a5ddf486"
