@@ -1,14 +1,14 @@
-return {
-  {
-    "rebelot/kanagawa.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "kanagawa-wave",
-    },
-  },
-}
+-- return {
+--   {
+--     "rebelot/kanagawa.nvim",
+--     lazy = false,
+--     priority = 1000,
+--     opts = {},
+--   },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "kanagawa-wave",
+--     },
+--   },
+-- }

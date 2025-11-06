@@ -5,10 +5,10 @@ return {
   keys = {
     {
       "<leader>cs",
-      ":SmuggleRange",
+      ":SmuggleRange<CR>",
       desc = "Smuggle range",
       mode = { "v" },
     },
-    dependencies = { "nvim-neotest/nvim-nio" },
   },
+  dependencies = { "nvim-neotest/nvim-nio" },
 }
