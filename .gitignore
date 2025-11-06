@@ -6,4 +6,5 @@ papis/.config/papis/web/*
 Manifest.toml
 nvim/.config/nvim/lazy-lock.json
 ssh/dot-ssh/*key*
+ssh/dot-ssh/*token*
 
