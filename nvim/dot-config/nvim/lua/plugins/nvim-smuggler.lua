@@ -7,7 +7,6 @@ return {
       "<leader>cs",
       ":SmuggleRange<CR>",
       desc = "Smuggle range",
-      mode = { "v" },
     },
   },
   dependencies = { "nvim-neotest/nvim-nio" },
