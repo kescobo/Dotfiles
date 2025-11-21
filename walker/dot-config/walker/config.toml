@@ -175,3 +175,4 @@ clipboard = [
   { action = "toggle_images", global = true, label = "toggle images", bind = "ctrl i", after = "AsyncClearReload" },
   { action = "edit", bind = "ctrl o" },
 ]
+

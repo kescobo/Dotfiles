@@ -11,15 +11,15 @@ Host gitlab.com
 Host tuftshpc
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
-    HostName login.pax.tufts.edu
+    HostName login-prod.pax.tufts.edu
 Host tufts1
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
-    HostName login-prod-01.pax.tufts.edu
+    HostName login-p01.pax.tufts.edu
 Host tufts2
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
-    HostName login-prod-01.pax.tufts.edu
+    HostName login-p02.pax.tufts.edu
 Host tuftsxfer
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
