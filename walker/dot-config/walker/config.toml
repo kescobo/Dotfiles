@@ -176,3 +176,4 @@ clipboard = [
   { action = "edit", bind = "ctrl o" },
 ]
 
+
