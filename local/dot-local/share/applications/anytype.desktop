@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Anytype
+Exec=/home/kevin/.local/bin/anytype --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+Terminal=false
+Type=Application
+Icon=anytype
+StartupWMClass=anytype
+Comment=Anytype
+MimeType=x-scheme-handler/anytype;
+Categories=Office;

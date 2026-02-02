@@ -1,0 +1,8 @@
+#!/bin/fish
+# actual_backup
+
+# Need to start container in fly.io if it was stopped by inactivity
+curl -s -o /dev/null https://vcpb-actual.fly.dev/
+
+set filename ~/Downloads/data_backup_(date +%F).tar.gz
+fly ssh console -C 'tar cvz /data' -a vcpb-actual -t (cat -p ~/.ssh/fly-token) >$filename

@@ -1,0 +1,7 @@
+#!/bin/fish
+
+# actual_backup
+actual-backup
+
+# update app
+fly deploy --image actualbudget/actual-server:latest --app vcpb-actual

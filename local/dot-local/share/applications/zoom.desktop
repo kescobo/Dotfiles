@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Zoom
+Exec=/usr/bin/zoom --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+Terminal=false
+Type=Application
+Icon=zoom
+StartupWMClass=zoom
+Comment=Zoom
+MimeType=x-scheme-handler/zoom;
+Categories=Office;

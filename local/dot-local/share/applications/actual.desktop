@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Actual
+Exec=/home/kevin/.local/bin/actual --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+Terminal=false
+Type=Application
+Icon=actual
+StartupWMClass=anytype
+Comment=Actual
+MimeType=x-scheme-handler/anytype;
+Categories=Office;
