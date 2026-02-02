@@ -20,7 +20,16 @@ Host tufts2
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName login-p02.pax.tufts.edu
+Host tufts3
+    User kbonha01
+    IdentityFile /home/kevin/.ssh/tuftshpc-key
+    HostName login-p03.pax.tufts.edu
 Host tuftsxfer
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName xfer.pax.tufts.edu
+Host denbi
+    HostName 129.70.51.6
+    User ubuntu
+    IdentityFile /home/kevin/.ssh/denbi-key
+    Port 31968
