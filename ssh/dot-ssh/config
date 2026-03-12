@@ -28,6 +28,11 @@ Host tuftsxfer
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName xfer.pax.tufts.edu
+Host fjolnir
+    HostName 130.64.46.214
+    User kevin
+    IdentityFile /home/kevin/.ssh/fjolnir-key
+    
 Host denbi
     HostName 129.70.51.6
     User ubuntu
