@@ -1,0 +1,125 @@
+# ~/.config/dunst/dunstrc
+# Kanagawa theme for dunst (Wayland)
+
+[global]
+    ### Display ###
+    monitor = 0
+    follow = mouse
+
+    ### Geometry ###
+    width = (0, 400)
+    height = (0, 200)
+    origin = top-right
+    offset = (12, 12)
+    scale = 0
+    notification_limit = 5
+
+    ### Wayland ###
+    layer = overlay          # show above fullscreen windows
+    force_xwayland = false
+
+    ### Progress bar ###
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 4
+
+    ### Appearance ###
+    transparency = 10
+    separator_height = 2
+    padding = 10
+    horizontal_padding = 12
+    text_icon_padding = 8
+    frame_width = 2
+    frame_color = "#2D4F67"          # winterBlue
+    separator_color = frame
+    corner_radius = 6
+
+    ### Text ###
+    font = Noto Sans 10
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 120
+    ellipsize = middle
+    ignore_newline = false
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = true
+
+    ### Icons ###
+    enable_recursive_icon_lookup = true
+    icon_theme = Adwaita
+    icon_position = left
+    min_icon_size = 24
+    max_icon_size = 48
+
+    ### History ###
+    sticky_history = true
+    history_length = 30
+
+    ### Misc ###
+    dmenu = /usr/bin/wofi -d -p dunst
+    browser = /usr/bin/xdg-open
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    ignore_dbusclose = false
+
+    ### Mouse ###
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+
+# ── Urgency levels (Kanagawa palette) ─────────────────────────────────────────
+#
+#   fujiWhite  #DCD7BA   sumiInk0   #16161D   waveBlue2  #2D4F67
+#   oldWhite   #C8C093   sumiInk1   #1F1F28   springBlue #7FB4CA
+#   boatYellow #C0A36E   sumiInk2   #2A2A37   lightBlue  #A3D4D5
+#   autumnRed  #C34043   sumiInk3   #363646   waveAqua2  #7AA89F
+#   autumnYellow #DCA561  sumiInk4  #54546D   sakuraPink #D27E99
+#   springGreen #98BB6C  winterRed  #43242B   waveRed    #E46876
+#   roninYellow #FF9E3B  winterYellow #49443C  peachRed  #FF5D62
+#   crystalBlue #7E9CD8  winterGreen #2B3328
+
+[urgency_low]
+    background = "#1F1F28"           # sumiInk1
+    foreground = "#C8C093"           # oldWhite
+    frame_color = "#2D4F67"          # waveBlue2 (muted)
+    timeout = 5
+    # default_icon = dialog-information
+
+[urgency_normal]
+    background = "#1F1F28"           # sumiInk1
+    foreground = "#DCD7BA"           # fujiWhite
+    frame_color = "#7E9CD8"          # crystalBlue
+    timeout = 10
+    # default_icon = dialog-information
+
+[urgency_critical]
+    background = "#43242B"           # winterRed
+    foreground = "#DCD7BA"           # fujiWhite
+    frame_color = "#C34043"          # autumnRed
+    timeout = 0                      # sticky until dismissed
+    # default_icon = dialog-warning
+
+
+# ── Optional rules ─────────────────────────────────────────────────────────────
+
+# Volume / brightness OSD — no history spam
+[osd]
+    appname = "osd"
+    history_ignore = true
+    timeout = 2
+
+# Screenshots
+[screenshot]
+    appname = "hyprshot"
+    background = "#2B3328"           # winterGreen
+    frame_color = "#98BB6C"          # springGreen
+    timeout = 4

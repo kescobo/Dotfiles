@@ -17,5 +17,9 @@ if status is-interactive
     alias gb="git branch"
     alias gch="git checkout"
 
-    unifetch
+    if type -q unifetch
+        unifetch
+    else if type -q neofetch
+        neofetch
+    end
 end
