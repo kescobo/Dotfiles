@@ -1,7 +1,11 @@
 {
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["hyprland/window"],
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
   "modules-right": [
     "idle_inhibitor",
     "network",
@@ -20,14 +24,14 @@
     "separate-outputs": true
   },
   "bluetooth": {
-	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
-	"format": " {status}",
-	"format-disabled": "", // an empty format will hide the module
-	"format-connected": " {num_connections} connected",
-	"tooltip-format": "{controller_alias}\t{controller_address}",
-	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-  "on-click": "blueman-manager",
+    // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+    "format": " {status}",
+    "format-disabled": "", // an empty format will hide the module
+    "format-connected": " {num_connections} connected",
+    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "on-click": "blueman-manager",
   },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %I:%M}",
@@ -45,7 +49,13 @@
     "format-plugged": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
     "format-alt": "<span size='13000' foreground='#B1E3AD'>{icon} </span> {time}",
     "format-full": "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "tooltip-format": "{time}"
   },
   "network": {
@@ -58,18 +68,22 @@
     "on-click-right": "wifi-menu.sh menu"
   },
   "pulseaudio": {
-      "format": "{icon}  {volume}%",
-      "format-muted": "",
-      "format-icons": {
-          "default": ["", "", " "]
-      },
-      "on-click": "pavucontrol"
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "default": [
+        "",
+        "",
+        " "
+      ]
+    },
+    "on-click": "pavucontrol"
   },
   "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
-    },
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
 }
