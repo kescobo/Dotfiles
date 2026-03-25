@@ -1,7 +1,7 @@
 # Vim-mode keybindings for Ghostty.
 # https://github.com/ghostty-org/ghostty/discussions/3708#discussioncomment-15329614
 # Entry point
-keybind = alt+v=activate_key_table:vim
+keybind = alt+r=activate_key_table:vim
 
 # Key table definition
 keybind = vim/
