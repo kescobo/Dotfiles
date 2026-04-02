@@ -8,7 +8,7 @@ return {
     },
     opts = {
       codeRunner = {
-        default_method = "iron"
+        default_method = "slime"
       }
     }
   },
