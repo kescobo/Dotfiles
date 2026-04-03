@@ -1,6 +1,7 @@
 if status is-interactive
     # Setup
     set -Ux EDITOR nvim
+    set -gx TERM_PROGRAM ghostty
     starship init fish | source
     zoxide init fish | source
     direnv hook fish | source
