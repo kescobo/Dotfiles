@@ -12,18 +12,26 @@ Host tuftshpc
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName login-prod.pax.tufts.edu
+    RemoteCommand tmux new -As0
+    RequestTTY yes
 Host tufts1
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName login-p01.pax.tufts.edu
+    RemoteCommand tmux new -As0
+    RequestTTY yes
 Host tufts2
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName login-p02.pax.tufts.edu
+    RemoteCommand tmux new -As0
+    RequestTTY yes
 Host tufts3
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
     HostName login-p03.pax.tufts.edu
+    RemoteCommand tmux new -As0
+    RequestTTY yes
 Host tuftsxfer
     User kbonha01
     IdentityFile /home/kevin/.ssh/tuftshpc-key
@@ -32,6 +40,8 @@ Host dogen
     HostName 130.64.46.214
     User kevin
     IdentityFile /home/kevin/.ssh/dogen-key
+    RemoteCommand tmux new -As0
+    RequestTTY yes
     
 Host denbi
     HostName 129.70.51.6
