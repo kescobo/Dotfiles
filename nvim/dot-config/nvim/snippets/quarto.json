@@ -1,0 +1,7 @@
+{
+  "Julia cell": {
+    "prefix": "jl",
+    "body": ["```{julia}", "$0", "```"],
+    "description": "Julia code cell"
+  }
+}

@@ -11,8 +11,8 @@ opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.local/share/undodir"
 
 -- try to fix julia indenting
-vim.g.julia_intent_align_brackets = 0
-vim.g.julia_intent_align_funcargs = 0
+vim.g.julia_indent_align_brackets = 0
+vim.g.julia_indent_align_funcargs = 0
 
 
 vim.lsp.config("jetls", {
