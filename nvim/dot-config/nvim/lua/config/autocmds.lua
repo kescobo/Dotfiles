@@ -14,3 +14,11 @@ vim.api.nvim_create_autocmd("CursorHold", {
   command = "update",
 })
 
+-- No concealment in markdown/quarto
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "markdown", "quarto" },
+  callback = function()
+    vim.opt_local.conceallevel = 0
+  end,
+})
+
