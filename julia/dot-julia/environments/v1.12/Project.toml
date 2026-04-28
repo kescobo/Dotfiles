@@ -1,6 +1,8 @@
 [deps]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CodecZstd = "6b39b394-51ab-5f42-8807-6242bab2b4c2"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
 KittyTerminalImages = "b7fa5abe-5c7d-46c6-a1ae-1026d0d509b9"
 MiniLoggers = "93f3dd0f-005d-4452-894a-a31841fa4078"
 REPLSmuggler = "ad7bff83-59f0-4382-9fe5-c2ac8aa77434"
