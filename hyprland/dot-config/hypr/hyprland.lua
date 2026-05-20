@@ -51,9 +51,8 @@ hl.monitor({
     scale    = 1,
 })
 
--- Lid switch (commented out pending native solution)
--- hl.bind("switch:on:Lid Switch",  hl.dsp.exec_cmd('hyprctl keyword monitor "eDP-1,disable" && if [ $(hyprctl monitors -j | jq \'. | length\') -eq 1 ]; then systemctl suspend; fi'), { locked = true })
--- hl.bind("switch:off:Lid Switch", hl.dsp.exec_cmd('hyprctl keyword monitor "eDP-1,preferred,auto,1"'), { locked = true })
+hl.bind("switch:on:Lid Switch",  hl.dsp.exec_cmd("hypr-lid close"), { locked = true })
+hl.bind("switch:off:Lid Switch", hl.dsp.exec_cmd("hypr-lid open"),  { locked = true })
 
 
 ---------------------
